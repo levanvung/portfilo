@@ -11,6 +11,7 @@ import ProjectPage from './pages/project';
 import AboutPage from './pages/about';
 import { AppContextProvider } from './components/context/app.context';
 import './i18n';
+import React from 'react';
 
 const router = createBrowserRouter([
   {
@@ -34,7 +35,7 @@ const router = createBrowserRouter([
 
 ]);
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <AppContextProvider>
       <RouterProvider router={router} />

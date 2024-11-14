@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Typewriter from "typewriter-effect";
 import SocialMedia from "../social.media";
 import { useTranslation } from "react-i18next";
@@ -6,6 +7,7 @@ import ResizeButton from "../resize.button";
 import { APP_DATA } from '../../../helpers/data';
 import { MdFileDownload } from "react-icons/md";
 import { AiFillFire } from "react-icons/ai";
+import React from "react";
 
 const HeroLeft = () => {
 

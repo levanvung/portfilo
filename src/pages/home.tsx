@@ -9,6 +9,7 @@ import { useTranslation } from "react-i18next";
 import Divider from "../components/sections/divider";
 import Experience from "../components/sections/experience";
 import Skill from "../components/sections/skill";
+import React from "react";
 
 const HomePage = () => {
     const { t } = useTranslation();

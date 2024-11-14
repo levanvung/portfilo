@@ -1,5 +1,11 @@
+import React from "react";
 
-const ResizeButton = (props) => {
+interface Iprops{
+    btnText?: string,
+    btnIcons?: React.ReactNode,
+    btnStyle?: React.CSSProperties
+}
+const ResizeButton = (props: Iprops) => {
     const { btnText, btnIcons, btnStyle } = props;
 
     return (
