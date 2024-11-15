@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
 import Project from "../components/sections/project";
+import React from "react";
 
 const ProjectPage = () => {
     return (

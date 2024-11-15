@@ -72,6 +72,7 @@ import vuetifyjs from '../assets/svg/skills/vuetifyjs.svg';
 import webix from '../assets/svg/skills/webix.svg';
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg';
 import wordpress from '../assets/svg/skills/wordpress.svg';
+import nodejs from '../assets/svg/skills/nodejs.svg';
 
 
 export const skillsImage = (skill) => {
@@ -107,7 +108,7 @@ export const skillsImage = (skill) => {
             return svelte;
         case 'typescript':
             return typescript;
-        case 'vue':
+        case 'vuejs':
             return vue;
         case 'bootstrap':
             return bootstrap;
@@ -225,6 +226,8 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'node js':
+            return nodejs;
         default:
             break;
     }

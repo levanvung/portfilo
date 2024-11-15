@@ -13,19 +13,21 @@ export const APP_DATA = {
 }
 
 export const EXPERIENCES = [
+  
     {
         id: 1,
         title: {
-            vi: "Lập Trình Viên",
-            en: "Fullstack Developer"
+            vi: "Lập Trình Viên Frontend",
+            en: "Frontend Developer"
         },
+
         company: {
-            vi: "Công ty ABCXYZ Ltd.",
-            en: "ABCXYZ Ltd."
+            vi: "CÔNG TY CỔ PHẦN TẬP ĐOÀN WGHN HOLDING",
+            en: "WGHN HOLDING GROUP CORPORATION"
         },
         duration: {
-            vi: "Jan 2024 - Hiện tại",
-            en: "Jan 2024 - Present"
+            vi: "08/2023 - Hiện tại",
+            en: "08/2023 - Present"
         }
     },
     {
@@ -34,29 +36,13 @@ export const EXPERIENCES = [
             vi: "Lập Trình Viên",
             en: "Fullstack Developer"
         },
-
         company: {
-            vi: "Công ty F (freelancer)",
-            en: "F (freelancer)"
+            vi: "Công ty Cổ phần Torus Engineering",
+            en: "Torus Engineering Joint Stock Company"
         },
         duration: {
-            vi: "Tháng 6/2022 - Tháng 1/2024",
-            en: "Jun 2022 - Jan 2024"
-        }
-    },
-    {
-        id: 3,
-        title: {
-            vi: "Dự án tự làm",
-            en: "Self Employed"
-        },
-        company: {
-            vi: "Học kiến thức mới mỗi ngày",
-            en: "Code and build something in everyday."
-        },
-        duration: {
-            vi: "Tháng 1/2020 - Hiện tại",
-            en: "Jan 2020 - Present"
+            vi: "02/2022 - 07/2023",
+            en: "02/2022 - 07/2023",
         }
     }
 ]
@@ -116,18 +102,16 @@ export const SKILLS_DATA = [
     'HTML',
     'CSS',
     'Javascript',
-    'Typescript',
     'React',
-    'Next JS',
+    'Node JS',
+    'VueJs',
     'Tailwind',
     'MongoDB',
     'MySQL',
-    'PostgreSQL',
     'Git',
     'AWS',
     'Bootstrap',
     'Docker',
-    'Go',
     'Figma',
     'Firebase',
     'MaterialUI',

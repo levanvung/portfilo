@@ -2,6 +2,7 @@
     "compilerOptions": {
       "jsx": "react",
       "target": "ES6",
+      "resolveJsonModule": true,
       "composite": true,
       "module": "ESNext",
       "moduleResolution": "node",
@@ -12,10 +13,15 @@
       "allowJs": true,
       "sourceMap": true,
       "skipLibCheck": true,
-      "allowSyntheticDefaultImports": true
-
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "paths": {
+        "src/*": ["src/*"],
+      }
     },
-    "include": ["src/**/*"],
+
+    "include": ["src/**/*",    "src/assets/lottie/code.json"
+  ],
     "exclude": ["node_modules"]
   }
   

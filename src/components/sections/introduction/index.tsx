@@ -3,6 +3,7 @@ import Tilt from "react-parallax-tilt";
 import avatarImg from "../../../assets/avatar.svg";
 import './introduction.scss';
 import { useTranslation } from 'react-i18next';
+import React from 'react';
 
 const Introduction = () => {
     const { t, i18n } = useTranslation();
@@ -27,7 +28,7 @@ const Introduction = () => {
                         <br />
                         <br />{t("introSection.heading2")}
                         <i>
-                            <b className='text-pink-100'> Java {t("introSection.and")} Javascript. </b>
+                            <b className='text-pink-100'> Javascript  {t("introSection.and")}  FameWork javascript. </b>
                         </i>
                         <br />
                         <br />
@@ -40,7 +41,7 @@ const Introduction = () => {
                         <br />
                         <br />
                         {t("introSection.heading5")}
-                        <i><b className='text-pink-100'>&nbsp;Java Spring</b> </i>
+                        <i><b className='text-pink-100'>&nbsp;React/Vuejs</b> </i>
                         {t("introSection.and")}
                         <i>
                             <b className='text-pink-100'>

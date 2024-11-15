@@ -4,6 +4,7 @@ import Marquee from "react-fast-marquee";
 import './skill.scss';
 import { Col, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
+import React from "react";
 
 const Skill = () => {
     const { t } = useTranslation();

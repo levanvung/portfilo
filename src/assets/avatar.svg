@@ -33,7 +33,7 @@
                         <use xlink:href="#path-5"></use>
                     </mask>
                     <use fill="#D0C6AC" xlink:href="#path-5"></use>
-                    <g id="Skin/👶🏻-05-Pale" mask="url(#mask-6)" fill="#FFDBB4">
+                    <g id="Skin/👶🏻-05-Pale" mask="url(#mask-6)" fill="#c68863">
                         <g transform="translate(-28.800000, 0.000000)" id="Color">
                             <rect x="0" y="0" width="238.383871" height="220.354839"></rect>
                         </g>
@@ -89,7 +89,7 @@
                             </mask>
                             <use id="Short-Hair" stroke="none" fill="#1F3140" fill-rule="evenodd" xlink:href="#path-13"></use>
                             <g id="Color/Hair/Brown-Dark" stroke="none" fill="none" mask="url(#mask-14)" fill-rule="evenodd">
-                                <g transform="translate(-43.100000, -15.000000)" fill="#4A312C" id="Color">
+                                <g transform="translate(-43.100000, -15.000000)" fill="#000" id="Color">
                                     <rect x="0" y="0" width="239.106977" height="252.406452"></rect>
                                 </g>
                             </g>
