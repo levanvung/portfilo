@@ -9,7 +9,11 @@ import { MdFileDownload } from "react-icons/md";
 import { AiFillFire } from "react-icons/ai";
 import React from "react";
 
-const HeroLeft = () => {
+interface Iprops {
+    scrollToExpericenceSection: () => void
+}
+
+const HeroLeft = (props: Iprops) => {
 
     const { t } = useTranslation();
 
@@ -51,6 +55,7 @@ const HeroLeft = () => {
             </div>
             <div className="d-md-flex d-none gap-4">
                 <ResizeButton
+                onClick={props.scrollToExpericenceSection}
                     btnText={t("heroSection.exp")}
                     btnIcons={<AiFillFire style={{ color: "orange" }} />}
                     btnStyle={{

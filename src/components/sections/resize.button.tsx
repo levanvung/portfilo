@@ -3,13 +3,14 @@ import React from "react";
 interface Iprops{
     btnText?: string,
     btnIcons?: React.ReactNode,
-    btnStyle?: React.CSSProperties
+    btnStyle?: React.CSSProperties,
+    onClick?: () => void
 }
 const ResizeButton = (props: Iprops) => {
-    const { btnText, btnIcons, btnStyle } = props;
+    const { btnText, btnIcons, btnStyle, onClick } = props;
 
     return (
-        <button className="resize-button" style={btnStyle}>
+        <button onClick={onClick} className="resize-button" style={btnStyle}>
             <span style={{ textTransform: "uppercase" }}>{btnText}</span>
             <>{btnIcons}</>
         </button>
