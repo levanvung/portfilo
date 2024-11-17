@@ -24,5 +24,10 @@
     },
     "skill": {
         "title": "Kỹ năng"
+    },
+
+    "project" : {
+        "header" : "Các dự án đã làm ",
+        "body":"Dưới đây là các dự án mà tôi đã làm"
     }
 }

@@ -15,7 +15,7 @@ function Layout() {
         <CSSTransition
           key={location.pathname}
           classNames="page"
-          timeout={300}
+          timeout={100}
         >
 
           <div className="page-wrapper">

@@ -1,14 +1,17 @@
 import { Col, Row } from "react-bootstrap"
 import ProjectCard from "./project.card";
 import { PROJECTS } from "../../../helpers/data";
+import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Project = () => {
+    const { t } = useTranslation();
     return (
         <>
             <Row>
                 <Col xs={12}>
-                    <h3 className="text-center">My Recent <span className="brand-red">Works</span> </h3>
-                    <h6 className="text-center mb-md-5 mb-2">Here are a few projects I've worked on recently.</h6>
+                    <h3 className="text-center"> <span className="brand-red">{t("project.header")}</span> </h3>
+                    <h6 className="text-center mb-md-5 mb-2">{t("project.body")}</h6>
                 </Col>
             </Row>
             <Row
