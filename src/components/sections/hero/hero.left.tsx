@@ -8,6 +8,7 @@ import { APP_DATA } from '../../../helpers/data';
 import { MdFileDownload } from "react-icons/md";
 import { AiFillFire } from "react-icons/ai";
 import React from "react";
+import i18n from "i18next";
 
 interface Iprops {
     scrollToExpericenceSection: () => void
@@ -16,7 +17,21 @@ interface Iprops {
 const HeroLeft = (props: Iprops) => {
 
     const { t } = useTranslation();
+    const openInNewTab = (url: string): void => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
 
+    }
+    const handleDowloadCV = () => {
+        const currentLanguage = i18n.language; // Lấy ngôn ngữ hiện tại
+        const url =
+            currentLanguage === "vi"
+                ? "https://drive.google.com/file/d/1q3g-y53cT-syigS1SYEfBR-TEWPqzJZb/view?usp=drive_link"
+                : "https://drive.google.com/file/d/18dsC4iV_6-ZDIgork3wWf9YUw_mG4WvD/view?usp=drive_link";
+    
+        openInNewTab(url);
+    };
+    
     return (
         <div className='hero-left'>
             <h3>
@@ -65,6 +80,7 @@ const HeroLeft = (props: Iprops) => {
                     }}
                 />
                 <ResizeButton
+                    onClick={handleDowloadCV}
                     btnText={t("heroSection.cv")}
                     btnIcons={<MdFileDownload />}
                 />

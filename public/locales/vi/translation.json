@@ -47,5 +47,49 @@
     "contact": {
         "title": "Liên hệ với tôi",
         "find": "Tìm thấy tôi"
-    }
+    },
+
+        "projected": {
+          "header": "Dự án của tôi",
+          "body": "Dưới đây là một số dự án tôi đã thực hiện:",
+          "projects": [
+            {
+                "imgPath":  "/src/assets/project/belle.png",
+                "title": "Nhận diện bệnh ngoài da bằng AI",
+              "description": "Belle AI giúp người dùng nhận biết và tìm hiểu về các bệnh ngoài da bằng công nghệ AI."
+            },
+            {
+                "imgPath":  "/src/assets/project/cms.png",
+
+              "title": "Hệ thống CMS Belle",
+              "description": "Hệ thống CMS quản lý nội dung cho trang web chính thức của Belle AI."
+            },
+            {
+                "imgPath":  "/src/assets/project/tool.png",
+
+              "title": "Công cụ gán nhãn cho bệnh ngoài da",
+              "description": "Một công cụ giúp tạo ra bộ dữ liệu chất lượng cao cho việc nhận diện bệnh ngoài da."
+            },
+            {
+                "imgPath":  "/src/assets/project/app.png",
+
+              "title": "Hệ thống CMS cho ứng dụng WGHN",
+              "description": "Mạng xã hội cho golfer với các tính năng như đặt sân, nhắn tin, và xem giải đấu."
+            },
+            {
+                "imgPath":  "/src/assets/project/hio.png",
+
+              "title": "Website mua bảo hiểm cho golfer",
+              "description": "Website giúp golfer dễ dàng mua bảo hiểm HIO với giao diện thân thiện."
+            },
+            {
+                "imgPath":  "/src/assets/project/chat.png",
+
+              "title": "Web chat WGHN",
+              "description": "Nền tảng chat trên web cho phép người dùng liên lạc mà không cần tải app WGHN."
+            }
+          ]
+        }
+      
+      
 }
