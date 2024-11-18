@@ -28,5 +28,24 @@
     "project" : {
         "header" : "Projects implemented",
         "body":" Here are a few projects I've worked on recently."
+    },
+    "about" : {
+        "title" : "Know Who I'M",
+        "body" : "I'm currently a fullstack developer",
+        "body2": "I completed my engineering program in artificial intelligence and computer vision at the University of Electricity",
+        "body3": "Besides coding, I also enjoy doing some other activities!",
+        "body4": "Playing games",
+        "body5": "Sleeping",
+        "body6": "Taking about Technologies",
+        "vung": "I'm Le Van Vung 23 years old"
+    },
+    "education": {
+        "title": "Software Engineer",
+        "school": "Electric Power University (EPU)"
+    },
+    "contact": {
+        "title": "Contact Me",
+        "find": "Find me on"
     }
+    
 }

@@ -29,5 +29,23 @@
     "project" : {
         "header" : "Các dự án đã làm ",
         "body":"Dưới đây là các dự án mà tôi đã làm"
+    },
+    "about": {
+            "title": "Tôi là ai",
+            "body": "Hiện tại, tôi là một lập trình viên fullstack",
+            "body2": "Tôi đã hoàn thành chương trình kỹ sư về trí tuệ nhân tạo và thị giác máy tính tại Đại học Điện lực",
+            "body3": "Ngoài lập trình, tôi cũng thích làm một số hoạt động khác!",
+            "body4": "Chơi game",
+            "body5": "Ngủ",
+            "body6": "Nói chuyện về Công nghệ",
+            "vung": "Tôi là Lê Văn Vững 23 tuổi"
+        },
+    "education": {
+        "title": "Kỹ sư phần mềm",
+        "school": "Đại học Điện lực (EPU)"
+    },
+    "contact": {
+        "title": "Liên hệ với tôi",
+        "find": "Tìm thấy tôi"
     }
 }

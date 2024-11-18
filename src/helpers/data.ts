@@ -6,10 +6,10 @@ import tool from '../assets/project/tool.png';
 import cms from '../assets/project/cms.png';
 
 export const APP_DATA = {
-    YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
-    TIKTOK_URL: "https://www.tiktok.com/@hoidanit",
-    UDEMY_URL: "https://www.udemy.com/user/eric-7039/",
-    FACEBOOK_URL: "https://www.facebook.com/askITwithERIC/"
+    LINKED_URL: "https://www.linkedin.com/in/jacj-jack-430476285/",
+    TIKTOK_URL: "https://www.tiktok.com/@dybxz2063lvn",
+    GITHUB_URL: "https://github.com/levanvung",
+    FACEBOOK_URL: "https://www.facebook.com/parkerpette/"
 }
 
 export const EXPERIENCES = [

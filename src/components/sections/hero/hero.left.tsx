@@ -47,10 +47,10 @@ const HeroLeft = (props: Iprops) => {
                 className="mt-md-6 mt-3 mb-md-5 mb-2"
             >
                 <SocialMedia
-                    youtube={APP_DATA.YOUTUBE_URL}
+                    linked={APP_DATA.LINKED_URL}
                     facebook={APP_DATA.FACEBOOK_URL}
                     tiktok={APP_DATA.TIKTOK_URL}
-                    udemy={APP_DATA.UDEMY_URL}
+                    github={APP_DATA.GITHUB_URL}
                 />
             </div>
             <div className="d-md-flex d-none gap-4">

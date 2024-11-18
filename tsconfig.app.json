@@ -20,7 +20,9 @@
       }
     },
 
-    "include": ["src/**/*",    "src/assets/lottie/code.json"
+    "include": ["src/**/*",    "src/assets/lottie/code.json",
+    "src/assets/lottie/coding.json"
+
   ],
     "exclude": ["node_modules"]
   }
