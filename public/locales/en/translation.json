@@ -53,42 +53,42 @@
           "body": "Here are some projects I have worked on:",
           "projects": [
             {
-              "imgPath":  "/src/assets/project/belle.png",
+              "imgPath":  "/images/project/belle.png",
               "title": "Skin Disease Detection with AI",
               "description": "Belle AI helps users identify and learn about skin diseases using AI technology.",
               "demoLink": "https://demo.belle.ai/"
 
             },
             {
-                "imgPath":  "/src/assets/project/cms.png",
+                "imgPath":  "/images/project/cms.png",
                 "demoLink": "https://www.belle.ai/",
 
               "title": "Belle CMS System",
               "description": "A CMS system for managing content for the official Belle AI website."
             },
             {
-                "imgPath":  "/src/assets/project/tool.png",
+                "imgPath":  "/images/project/tool.png",
                 "demoLink": " ",
 
               "title": "Annotation Tool for Skin Diseases",
               "description": "A tool for annotators to create high-quality datasets for skin disease detection."
             },
             {
-                "imgPath":  "/src/assets/project/app.png",
+                "imgPath":  "/images/project/app.png",
                 "demoLink": "https://apps.apple.com/vn/app/wghn/id1590376779?l=vi",
 
               "title": "WGHN CMS for Mobile App",
               "description": "A social network for golfers with features like booking, messaging, and tournament viewing."
             },
             {
-                "imgPath":  "/src/assets/project/hio.png",
+                "imgPath":  "/images/project/hio.png",
                 "demoLink": "https://hio.wghn.net/",
 
               "title": "Insurance Website for Golfers",
               "description": "A website for golfers to easily purchase HIO insurance packages with a user-friendly interface."
             },
             {
-                "imgPath":  "/src/assets/project/chat.png",
+                "imgPath":  "/images/project/chat.png",
                 "demoLink": "https://chat.wghn.net/",
 
               "title": "WGHN Web Chat",
