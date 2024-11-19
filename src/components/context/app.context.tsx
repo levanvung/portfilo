@@ -14,7 +14,7 @@ export const AppContextProvider = ({children} : {children: React.ReactNode}) => 
     });
 
     useEffect(() => {
-        const mode = localStorage.getItem("theme") as ThemeContextType;
+        const mode = localStorage.getItem("theme") as ThemeContextType || "dark";
         if (mode) {
             setTheme(mode);
             document.documentElement.setAttribute('data-bs-theme', mode);
